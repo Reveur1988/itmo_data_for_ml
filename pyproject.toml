@@ -1,0 +1,15 @@
+[project]
+name = "itmo-data-for-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cdsapi>=0.7.5",
+    "dask>=2025.3.0",
+    "gcsfs>=2025.3.2",
+    "netcdf4>=1.7.2",
+    "scipy>=1.15.2",
+    "xarray>=2025.3.1",
+    "zarr>=3.0.6",
+]
