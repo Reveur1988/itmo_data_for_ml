@@ -38,7 +38,10 @@ def main():
         "download_format": "unarchived",
     }
     
-    variables = ["2m_temperature"]
+    variables = [
+        "10m_wind_gust_since_previous_post_processing",
+        "instantaneous_10m_wind_gust"
+    ]
     north = 70.0  # top_latitude
     west = 180.0  # right_longitude
     south = 40.0  # bottom_latitude
